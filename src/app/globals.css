@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c5a01a;
+  --color-gold-600: #b08d07;
+  --color-cream: #fbf8f1;
+  --color-dark-surface: #111111;
+  --color-dark-border: #222222;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #fbf8f1;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, var(--color-gold-400), var(--color-gold-600));
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold-400), var(--color-gold-600));
+}
+
