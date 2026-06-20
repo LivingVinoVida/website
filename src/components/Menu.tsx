@@ -3,13 +3,14 @@
 import { motion } from "framer-motion";
 
 const menuItems = [
-    { name: "Íntima (2 pers)", quesos: "3", embutidos: "2", frutas: "Sí", precio: "$850" },
-    { name: "Familiar (4 pers)", quesos: "5", embutidos: "4", frutas: "Sí", precio: "$1,450" },
-    { name: "Premium (6 pers)", quesos: "7", embutidos: "6", frutas: "Sí", precio: "$2,200", highlight: true },
-    { name: "Executive", quesos: "8", embutidos: "8", frutas: "Gourmet", precio: "$3,100" },
-    { name: "Boda", quesos: "Personalizada", embutidos: "Personalizada", frutas: "Sí", precio: "Consulta" },
-    { name: "Evento", quesos: "Personalizada", embutidos: "Personalizada", frutas: "Sí", precio: "Consulta" },
-];
+    { name: "Indivual LIV", quesos: "Charola redonda", embutidos: "1-2 pers", frutas: "", precio: "$400" },
+    { name: "Living Lov (2-3 pers)", quesos: "Charola corazon", embutidos: "2-3 pers", frutas: "", precio: "$450" },
+    { name: "Living", quesos: "Charola redonda", embutidos: "4-6 pers", frutas: "", precio: "$750", highlight: true },
+    { name: "Tabla LIV", quesos: "Incluye tabla", embutidos: "4-6 pers", frutas: "", precio: "$900" },
+    { name: "Grande LIV", quesos: "Caja", embutidos: "8-10 pers", frutas: "", precio: "$1,600" },
+    { name: "Evento LIV", quesos: "Montaje", embutidos: "Personalizada", frutas: "", precio: "Cotización por persona" },
+   ];
+
 
 export default function Menu() {
     return (
@@ -39,9 +40,9 @@ export default function Menu() {
                         <thead>
                             <tr className="border-b border-dark-border text-gold-400 font-serif italic uppercase text-sm tracking-wider">
                                 <th className="py-6 px-4 font-normal">Tabla</th>
-                                <th className="py-6 px-4 font-normal">Quesos</th>
-                                <th className="py-6 px-4 font-normal">Embutidos</th>
-                                <th className="py-6 px-4 font-normal hidden md:table-cell">Frutas/Nueces</th>
+                                <th className="py-6 px-4 font-normal">Presentacion</th>
+                                <th className="py-6 px-4 font-normal">Ideal para</th>
+                                <th className="py-6 px-4 font-normal hidden md:table-cell"></th>
                                 <th className="py-6 px-4 font-normal text-right">Precio MXN</th>
                             </tr>
                         </thead>

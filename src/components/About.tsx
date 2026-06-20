@@ -44,7 +44,7 @@ export default function About() {
                         transition={{ delay: 0.2 }}
                         className="max-w-2xl text-cream/80 text-lg font-light leading-relaxed"
                     >
-                        En Living Vino Vida, transformamos momentos ordinarios en recuerdos extraordinarios a través de la curaduría meticulosa de sabores, texturas y presentaciones visuales impactantes.
+                        En Living Vino Vida, transformamos momentos ordinarios en recuerdos extraordinarios a través de la seleccion meticulosa de sabores, texturas y presentaciones visuales impactantes.
                     </motion.p>
                 </div>
 

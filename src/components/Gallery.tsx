@@ -4,12 +4,16 @@ import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 
 const photos = [
-    "/gallery/foto1.jpg",
-    "/gallery/foto2.jpg",
-    "/gallery/foto3.jpg",
-    "/gallery/foto4.jpg",
+    "/gallery/Paquete.png",
+    "/gallery/individual.png",
+    "/gallery/redonda2.png",
     "/gallery/foto5.jpg",
     "/gallery/foto6.jpg",
+    "/gallery/Caja.png",
+    "/gallery/corazon.jpeg",
+    "/gallery/redonda.png",
+    "/gallery/foto1.jpg",
+    "/gallery/carrete.png",
     "/gallery/foto7.jpg",
 ];
 
