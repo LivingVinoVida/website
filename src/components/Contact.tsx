@@ -135,7 +135,6 @@ export default function Contact() {
                                         <option value="Tabla LIV">Tabla LIV (4-6 pers) - $950</option>
                                         <option value="Grande LIV">Grande LIV (8-10 pers) - $1,600</option>
                                         <option value="Evento LIV">Evento LIV - Cotizar</option>
-                                        <option value="Living Vino Vida">Living Vino Vida (4-6 pers) - $800</option>
                                     </select>
                                 </div>
                             </div>
