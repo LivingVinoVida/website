@@ -28,7 +28,7 @@ export default function Hero() {
                         <span className="text-gradient">Living Vino Vida</span>
                     </h1>
                     <p className="text-lg md:text-2xl text-cream/90 font-light mb-12 max-w-2xl mx-auto">
-                        Tablas de quesos y charcutería para ocasiones inolvidables en Toluca, Metepec y Zinacantepec, Estado de México.
+                        Tablas de quesos y charcutería para ocasiones inolvidables o no, solo porque si... en Toluca, Metepec y Zinacantepec, Estado de México.
                     </p>
                 </motion.div>
 

@@ -39,11 +39,11 @@ export default function Menu() {
                     >
                         <thead>
                             <tr className="border-b border-dark-border text-gold-400 font-serif italic uppercase text-sm tracking-wider">
-                                <th className="py-6 px-4 font-normal">Tabla</th>
-                                <th className="py-6 px-4 font-normal">Presentacion</th>
-                                <th className="py-6 px-4 font-normal">Ideal para</th>
+                                <th className="py-6 px-4 font-normal text-xl">Tabla</th>
+                                <th className="py-6 px-4 font-normal text-xl">Presentacion</th>
+                                <th className="py-6 px-4 font-normal text-xl">Ideal para</th>
                                 <th className="py-6 px-4 font-normal hidden md:table-cell"></th>
-                                <th className="py-6 px-4 font-normal text-right">Precio MXN</th>
+                                <th className="py-6 px-4 font-normal text-right text-xl">Precio MXN</th>
                             </tr>
                         </thead>
                         <tbody>
