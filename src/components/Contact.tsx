@@ -89,7 +89,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="text-white font-semibold uppercase tracking-widest text-sm mb-1">Área de Entrega</h4>
-                                    <p className="text-cream/60 font-light">Especializados en Toluca, Metepec y Zinacentepec, Estado de México.</p>
+                                    <p className="text-cream/60 font-light">Especializados en Toluca, Metepec y Zinacantepec, Estado de México.</p>
                                 </div>
                             </motion.div>
                         </div>
