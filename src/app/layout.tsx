@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Living Vino Vida | Tablas Gourmet",
-  description: "Tablas de quesos y charcutería premium en Toluca, Estado de México.",
+  description: "Tablas de quesos y charcutería premium en Toluca, Metepec y Zinacantepec, Estado de México.",
 };
 
 export default function RootLayout({
@@ -40,7 +40,7 @@ export default function RootLayout({
               image: "https://yourwebsite.com/logo.png",
               "@id": "https://yourwebsite.com",
               url: "https://yourwebsite.com",
-              telephone: "+525500000000",
+              telephone: "+527222502404",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Toluca Centro",

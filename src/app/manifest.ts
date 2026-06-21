@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
     return {
         name: 'Living Vino Vida',
         short_name: 'Vino Vida',
-        description: 'Tablas de quesos y charcutería premium en Toluca, Estado de México.',
+        description: 'Tablas de quesos y charcutería premium en Toluca, Metepec y Zinacantepec, Estado de México.',
         start_url: '/',
         display: 'standalone',
         background_color: '#000000',

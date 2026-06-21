@@ -10,7 +10,7 @@ export default function Contact() {
         telefono: "",
         email: "",
         fecha: "",
-        tipo: "íntima",
+        tipo: "Living",
         comentarios: "",
     });
 
@@ -89,7 +89,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="text-white font-semibold uppercase tracking-widest text-sm mb-1">Área de Entrega</h4>
-                                    <p className="text-cream/60 font-light">Especializados en Toluca y Metepec, Estado de México.</p>
+                                    <p className="text-cream/60 font-light">Especializados en Toluca, Metepec y Zinacentepec, Estado de México.</p>
                                 </div>
                             </motion.div>
                         </div>
@@ -129,11 +129,13 @@ export default function Contact() {
                                 <div className="flex flex-col gap-2">
                                     <label htmlFor="tipo" className="text-xs uppercase tracking-widest text-cream/50">Tipo de Tabla</label>
                                     <select required id="tipo" name="tipo" value={formData.tipo} onChange={handleChange} className="bg-black border-b border-dark-border focus:border-gold-400 py-3 text-white transition-colors outline-none font-light appearance-none">
-                                        <option value="íntima">Íntima (2 pers) - $850</option>
-                                        <option value="familiar">Familiar (4 pers) - $1,450</option>
-                                        <option value="premium">Premium (6 pers) - $2,200</option>
-                                        <option value="executive">Ejecutiva (8 pers) - $3,100</option>
-                                        <option value="boda">Boda / Evento - Cotizar</option>
+                                        <option value="Individual LIV">Indivual Liv (1-2 pers) - $400</option>
+                                        <option value="Living LOV">Living Lov (2-3 pers) - $450</option>
+                                        <option value="Living">Living  (4-6 pers) - $750</option>
+                                        <option value="Tabla LIV">Tabla LIV (4-6 pers) - $950</option>
+                                        <option value="Grande LIV">Grande LIV (8-10 pers) - $1,600</option>
+                                        <option value="Evento LIV">Evento LIV - Cotizar</option>
+                                        <option value="Living Vino Vida">Living Vino Vida (4-6 pers) - $800</option>
                                     </select>
                                 </div>
                             </div>
