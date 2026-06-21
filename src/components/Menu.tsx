@@ -9,6 +9,7 @@ const menuItems = [
     { name: "Tabla LIV", quesos: "Incluye tabla", embutidos: "4-6 pers", frutas: "", precio: "$900" },
     { name: "Grande LIV", quesos: "Caja", embutidos: "8-10 pers", frutas: "", precio: "$1,600" },
     { name: "Evento LIV", quesos: "Montaje", embutidos: "Personalizada", frutas: "", precio: "Cotización por persona" },
+    { name: "Living Vino Vida", quesos: "Charola redonda", embutidos: "4-6 pers", frutas: "", precio: "$800" },
    ];
 
 
